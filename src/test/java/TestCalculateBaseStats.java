@@ -35,6 +35,6 @@ public class TestCalculateBaseStats {
 
 
         Assert.assertEquals(1000, monster.getExperience());
-        Assert.assertEquals(90, monster.getHp());
+        Assert.assertEquals(75, monster.getHp());
     }
 }

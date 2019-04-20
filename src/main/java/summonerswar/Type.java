@@ -11,7 +11,12 @@ public enum Type {
     CHIMERA(Stars.FIVE_STARS),
     ARCHANGEL(Stars.FIVE_STARS),
     SUCCUBUS(Stars.FOUR_STARS),
-    HELLHOUND(Stars.THREE_STARS);
+    JOKER(Stars.FOUR_STARS),
+    PIRATECAPTAIN(Stars.FOUR_STARS),
+    TWINS(Stars.FOUR_STARS),
+    HELLHOUND(Stars.THREE_STARS),
+    INUGAMI(Stars.THREE_STARS),
+    BEARMAN(Stars.THREE_STARS);
 
     private final Stars defaultStars;
 
@@ -35,4 +40,6 @@ public enum Type {
 
         return types.get(new Random().nextInt(types.size()));
     }
+
+
 }
